@@ -15,7 +15,7 @@ nav{
   display: inline-block;
   margin: 20px;
   position: relative;
-  left: 50px;
+  left: 20px;
   top: 50px;
   font-size: 50px;
 }
@@ -76,6 +76,7 @@ footer{
   background-size: cover;
   position: relative;
   top: -20px;
+  margin:0px ;
 }
 .cred{
   color: black;
@@ -84,6 +85,9 @@ footer{
   text-align: center;
 }
 @media(max-width:800px){
+  .title{
+    font-size: 30px;
+  }
   nav{
     text-align:left ;
   }
@@ -93,6 +97,7 @@ footer{
     float: none;
     margin:0px ;
     padding: 0px;
+    margin: 0px;
   }
   .hed1{
     display: block;
@@ -102,6 +107,7 @@ footer{
   }
   main{
     height:3500px;
+    
     
   }
   .img1{
